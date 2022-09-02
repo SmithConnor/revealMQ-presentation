@@ -28,8 +28,12 @@ $colors: (
 // Headings
 $headingTextTransform: uppercase;
 
+$presentation-font-size-root: 50px !default;
+
 $body-bg:                   $white !default;
 $body-color:                $charcoal !default;
+
+
 
 $link-color:                              $red !default;
 
@@ -40,6 +44,7 @@ $presentation-title-slide-text-align: left !default;
 // Code Blocks
 $code-block-bg:  $sand !default;
 $code-block-border-color: $purple !default;
+$code-block-font-size: 1em !default;
 
 /* -- scss:mixins --*/
 
@@ -48,13 +53,13 @@ $code-block-border-color: $purple !default;
 // Macquarie Logo
 .slide-logo {
   display: block !important;
-  position: fixed !important;
+  position: absolute !important;
   z-index: 1 !important;
   top: 0 !important;
   right: 10px !important;
   max-height: 15% !important;
-  height: 100% !important;
-  width: auto !important;
+  height: 20% !important;
+  width: 20% !important;
   color: $white !important;
 }
 

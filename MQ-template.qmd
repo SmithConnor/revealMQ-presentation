@@ -10,6 +10,7 @@ format:
     theme: assests/MQ-theme.scss
     width: 1920
     height: 1080
+    margin: 0.08
     logo: assests/MQ-logo-col.png
     slide-number: true
     title-slide-attributes: 
