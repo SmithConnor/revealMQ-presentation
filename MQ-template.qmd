@@ -95,3 +95,21 @@ When you click the **Render** button a presentation will be generated that inclu
 ```{r}
 1 + 1
 ```
+
+## Two Column
+
+### Add subtitle here
+
+<hr size="2rem" color="#373A36">
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Left column
+:::
+
+::: {.column width="50%"}
+Right column
+:::
+
+::::
