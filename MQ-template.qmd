@@ -11,6 +11,7 @@ format:
     width: 1920
     height: 1080
     logo: assests/MQ-logo-col.png
+    slide-number: true
     title-slide-attributes: 
       data-background-image: assests/MQ-diag-full.png
       data-background-position: 50% 90%
