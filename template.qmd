@@ -4,21 +4,12 @@ subtitle: "A Macquarie University theme for revealjs"
 author: "Connor Smith & Thomas Fung"
 institute: "School of Mathematical and Physical Sciences"
 date: "`r Sys.Date()`"
-footer: "Awesome Quarto & RMarkdown resources for MQ"
+footer: "[Awesome Quarto & RMarkdown resources for MQ](https://github.com/SmithConnor/revealMQ-presentation)"
 format: 
-  revealjs:
-    theme: assests/MQ-theme.scss
+  mq-revealjs:
     width: 1920
     height: 1080
-    margin: 0.08
-    logo: assests/MQ-logo-col.png
-    slide-number: true
-    title-slide-attributes: 
-      data-background-image: assests/MQ-diag-full.png
-      data-background-position: 50% 90%
-      data-background-size: 95% 40%
-
-editor: visual
+    self-contained: true
 ---
 
 # Quick Start {.title}
@@ -26,8 +17,6 @@ editor: visual
 ## Headings
 
 ### location
-
-<hr size="2rem" color="#373A36">
 
 Headings are used to define different sections in the revealjs slides:
 
@@ -39,7 +28,6 @@ Headings are used to define different sections in the revealjs slides:
 
 ### how to
 
-<hr size="2rem" color="#373A36">
 
 When demonstrating code in a unit, you are able to highlight code incrementally:
 
@@ -56,7 +44,6 @@ y <- sum(x)
 
 ### animation
 
-<hr size="2rem" color="#373A36">
 
 Walk your students through code step by step.
 
@@ -72,8 +59,6 @@ y <- sum(x)
 
 ### animation
 
-<hr size="2rem" color="#373A36">
-
 Walk your students through code step by step.
 
 ```{r}
@@ -86,10 +71,6 @@ z <- y^2
 ```
 
 ## This is a test slide where I do everything
-
-### Hello my name is Connor
-
-<hr size="2rem" color="#373A36">
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. [Here](https://www.emilhvitfeldt.com/post/slidecraft-colors-fonts/ "Testing this out") You can embed code like this:
 

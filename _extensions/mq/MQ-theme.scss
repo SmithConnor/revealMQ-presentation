@@ -1,3 +1,4 @@
+
 $red:         #A6192E !default;
 $purple:      #80225F !default;
 $deep-red:    #76232F !default;
@@ -28,23 +29,18 @@ $colors: (
 // Headings
 $headingTextTransform: uppercase;
 
-$presentation-font-size-root: 50px !default;
-
 $body-bg:                   $white !default;
 $body-color:                $charcoal !default;
-
-
 
 $link-color:                              $red !default;
 
 $font-family-sans-serif:      Arial !default;
 
-$presentation-title-slide-text-align: left !default;
+$presentation-title-slide-text-align: left;
 
 // Code Blocks
-$code-block-bg:  $sand !default;
+$code-block-bg:  #F5F5F5 !default;
 $code-block-border-color: $purple !default;
-$code-block-font-size: 1em !default;
 
 /* -- scss:mixins --*/
 
@@ -53,13 +49,13 @@ $code-block-font-size: 1em !default;
 // Macquarie Logo
 .slide-logo {
   display: block !important;
-  position: absolute !important;
+  position: fixed !important;
   z-index: 1 !important;
   top: 0 !important;
   right: 10px !important;
-  max-height: 15% !important;
-  height: 20% !important;
-  width: 20% !important;
+  max-height: 10% !important;
+  height: 100% !important;
+  width: auto !important;
   color: $white !important;
 }
 
@@ -80,6 +76,10 @@ $code-block-font-size: 1em !default;
 .reveal .slides h2{
   text-transform: capitalize !important;
   font-size: 4rem;
+  background-image: url(_extensions/mq/underline.png);
+  background-position: 0 1.15em;
+  background-repeat: repeat-x;
+  background-size: 1107px 12px;
 }
 
 .reveal .slides h3{
@@ -91,7 +91,3 @@ $code-block-font-size: 1em !default;
 .subtitle{
   color: $red !important;
 }
-
-
-
-
